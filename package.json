@@ -1,0 +1,21 @@
+{
+  "name": "h-pollingapi",
+  "version": "1.0.0",
+  "description": "Description : 1. We can create question. 2. We can delete Question. 3. We can view question 4. We can create option for question 5. We can delete option 6. we can vote to particular option for a particular Question . ***",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.10.2",
+    "env": "^0.0.2",
+    "express": "^4.18.2",
+    "mongoose": "^6.10.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
